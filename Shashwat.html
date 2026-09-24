@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashwat Sharma Phukan | E-Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#090d16',
+                        cardBg: '#121826',
+                        accentCyan: '#38bdf8',
+                        accentBlue: '#6366f1'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-slate-100 font-sans antialiased selection:bg-accentCyan selection:text-darkBg">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-darkBg/80 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-lg bg-gradient-to-r from-accentCyan to-accentBlue bg-clip-text text-transparent">
+                Shashwat Sharma Phukan
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-accentCyan transition">About</a>
+                <a href="#qualifications" class="hover:text-accentCyan transition">Qualifications</a>
+                <a href="#interests" class="hover:text-accentCyan transition">Interests</a>
+                <a href="#skills" class="hover:text-accentCyan transition">Skills</a>
+                <a href="#projects" class="hover:text-accentCyan transition">Projects</a>
+                <a href="#contact" class="hover:text-accentCyan transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="max-w-6xl mx-auto px-6 py-24 md:py-32 flex flex-col items-center text-center">
+        <div class="inline-block p-1 rounded-full bg-gradient-to-r from-accentCyan to-accentBlue mb-6">
+            <div class="bg-darkBg px-6 py-2 rounded-full">
+                <span class="text-sm font-medium text-accentCyan">IIT Roorkee | Geophysics</span>
+            </div>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            Hi, I'm <span class="bg-gradient-to-r from-accentCyan to-accentBlue bg-clip-text text-transparent">Shashwat Sharma Phukan</span>
+        </h1>
+        <p class="max-w-2xl text-slate-400 text-lg md:text-xl mb-10 leading-relaxed">
+            Undergraduate student studying Geophysics at the Indian Institute of Technology Roorkee. Passionate about continuous learning, programming, and building tech solutions that contribute to society.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center">
+            <a href="#contact" class="px-8 py-3 rounded-xl bg-gradient-to-r from-accentCyan to-accentBlue text-darkBg font-semibold hover:opacity-90 transition shadow-lg shadow-accentCyan/20">
+                Get in Touch
+            </a>
+            <a href="#projects" class="px-8 py-3 rounded-xl border border-slate-700 bg-cardBg hover:border-slate-500 transition font-semibold text-slate-200">
+                View Projects
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 space-y-24 pb-24">
+
+        <!-- About Section -->
+        <section id="about" class="bg-cardBg border border-slate-800/80 rounded-2xl p-8 md:p-12 shadow-xl">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                <i class="fa-solid fa-user text-accentCyan"></i> About Me
+            </h2>
+            <p class="text-slate-300 leading-relaxed text-base md:text-lg">
+                I am an undergraduate student at IIT Roorkee pursuing Geophysics. Driven by curiosity and a passion for solving complex challenges, my interests lie at the intersection of mathematics, artificial intelligence, programming, and general research. I value clear communication, empathy, and continuous self-improvement.
+            </p>
+        </section>
+
+        <!-- Qualifications & Certifications -->
+        <section id="qualifications">
+            <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-graduation-cap text-accentCyan"></i> Qualifications & Certifications
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-2xl shadow-md">
+                    <h3 class="text-lg font-semibold text-accentCyan">B.Tech in Geophysics</h3>
+                    <p class="text-slate-400 text-sm mt-1">Indian Institute of Technology Roorkee (Ongoing)</p>
+                </div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-2xl shadow-md">
+                    <h3 class="text-lg font-semibold text-accentCyan">Senior Secondary (12th Grade)</h3>
+                    <p class="text-slate-400 text-sm mt-1">Delhi Public School, Indirapuram</p>
+                    <p class="text-slate-200 font-medium mt-2">Score: 91%</p>
+                </div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-2xl shadow-md">
+                    <h3 class="text-lg font-semibold text-accentCyan">Secondary (10th Grade)</h3>
+                    <p class="text-slate-400 text-sm mt-1">Delhi Public School, Indirapuram</p>
+                    <p class="text-slate-200 font-medium mt-2">Score: 98.2%</p>
+                </div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-2xl shadow-md">
+                    <h3 class="text-lg font-semibold text-accentCyan">IOQM 2024 Qualifier</h3>
+                    <p class="text-slate-400 text-sm mt-1">Indian Olympiad Qualifier in Mathematics</p>
+                </div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-2xl shadow-md md:col-span-2">
+                    <h3 class="text-lg font-semibold text-accentCyan">VVM Jodhpur District Rank 1</h3>
+                    <p class="text-slate-400 text-sm mt-1">Vidyarthi Vigyan Manthan</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests">
+            <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-lightbulb text-accentCyan"></i> Interests
+            </h2>
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-xl text-center font-medium text-slate-200">Mathematics</div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-xl text-center font-medium text-slate-200">Programming</div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-xl text-center font-medium text-slate-200">AI & ML</div>
+                <div class="bg-cardBg border border-slate-800 p-6 rounded-xl text-center font-medium text-slate-200">Research</div>
+            </div>
+        </section>
+
+        <!-- Skills & Soft Skills Section -->
+        <section id="skills" class="grid md:grid-cols-2 gap-8">
+            <!-- Technical Stack -->
+            <div class="bg-cardBg border border-slate-800 p-8 rounded-2xl shadow-xl">
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-code text-accentCyan"></i> Technical Skills
+                </h2>
+                <ul class="space-y-3 text-slate-300">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> C++</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Python</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> HTML</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Mathematics</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> High-speed touch typing (Peak of 110 WPM)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Fully proficient in 3 languages (English, Hindi, and Assamese)</li>
+                </ul>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="bg-cardBg border border-slate-800 p-8 rounded-2xl shadow-xl">
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-users text-accentCyan"></i> Soft Skills
+                </h2>
+                <ul class="space-y-3 text-slate-300">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Good communication skills</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Debating skills (Won inter-school Sanskrit debate competition in 10th)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Empathy</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Emotional intelligence</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-accentCyan"></i> Intrinsically motivated to do good</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-diagram-project text-accentCyan"></i> Projects
+            </h2>
+            <div class="bg-cardBg border border-slate-800 p-8 rounded-2xl shadow-xl">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-slate-100">Autonomous Vehicle for Crop Disease Identification</h3>
+                    <span class="text-sm font-semibold text-accentCyan bg-accentCyan/10 px-3 py-1 rounded-full mt-2 md:mt-0">2026</span>
+                </div>
+                <p class="text-slate-300 leading-relaxed">
+                    Developed an autonomous system engineered to accurately detect and identify crop diseases, aiming to assist in smart agriculture and modern farming efficiency.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-cardBg border border-slate-800 p-8 md:p-12 rounded-2xl shadow-xl text-center">
+            <h2 class="text-2xl font-bold mb-4 flex items-center justify-center gap-3">
+                <i class="fa-solid fa-envelope text-accentCyan"></i> Contact Me
+            </h2>
+            <p class="text-slate-400 mb-8 max-w-md mx-auto">Feel free to reach out via email or phone for collaborations, research inquiries, or professional networking.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6 text-slate-300 font-medium">
+                <a href="mailto:phukanshashwat@gmail.com" class="flex items-center justify-center gap-2 hover:text-accentCyan transition">
+                    <i class="fa-solid fa-at text-accentCyan"></i> phukanshashwat@gmail.com
+                </a>
+                <a href="tel:9571324069" class="flex items-center justify-center gap-2 hover:text-accentCyan transition">
+                    <i class="fa-solid fa-phone text-accentCyan"></i> +91 9571324069
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+        <p>© 2026 Shashwat Sharma Phukan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
